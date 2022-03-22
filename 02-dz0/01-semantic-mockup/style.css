@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, Times, serif; 
+    font-weight: normal;
+    line-height: 2;
+    background-size: auto;
+    margin: 0;
+}
+header {
+    font-family: Georgia, Times, serif; 
+    font-weight: normal;
+    text-align: center; 
+    line-height: 2;
+}
+h1 {
+    font-size: 24pt; 
+    background-color: #ff0000; 
+    margin: 0;
+}
+nav {
+    vertical-align: middle;
+    font-size: 15pt; 
+    background-color: #d6fc00;
+    
+}
+main {
+    font-family: Georgia, Times, serif; 
+    font-weight: normal;
+    line-height: 2;
+    background-color: #00e1ff;
+    padding: 10px;
+}
+article {
+    background-color: #b700ff;
+    background-size: auto;
+    padding-left: 15px;
+}
+footer {
+    font-family: Georgia, Times, serif; 
+    font-weight: normal;
+    text-align: center; 
+    line-height: 2;
+    font-size: 24pt; 
+    background-color: #00fd6a;
+}
+h2 {
+    margin: 0;
+}
+ol {
+    margin: 0;
+    padding-bottom: 10px;
+}
+ul {
+    padding-bottom: 10px;
+}
