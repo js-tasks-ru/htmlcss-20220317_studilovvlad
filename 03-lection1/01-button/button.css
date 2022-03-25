@@ -1,21 +1,11 @@
-:root {
-    --main-color: #4263EB;
-    --secondary-color: #7048E8;
-    --main-hover-color: #2342C0;
-    --secondary-hover-color:#5028C6;
-    --main-text-color:#FFFFFF;
-}
-
-:disabled {
+.button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
 
-button {
+.button {
     height: 48px;
     width: 189px;
-    left: 0px;
-    top: 0px;
     border-radius: 8px;
     font-family: Roboto;
     font-size: 16px;
@@ -24,35 +14,32 @@ button {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
+    cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-button:not([disabled]){
-    cursor: pointer;
-}
-
-.button-primary {
+.button_primary {
     background-color: var(--main-color);
     color: var(--main-text-color)
 }
 
-.button-primary:not([disabled]):hover {
+.button_primary:not([disabled]):hover {
     background-color: var(--main-hover-color);
 }
 
-.button-secondary {
+.button_secondary {
     background-color: var(--secondary-color);
     color: var(--main-text-color)
 }
 
-.button-secondary:not([disabled]):hover {
+.button_secondary:not([disabled]):hover {
     background-color: var(--secondary-hover-color);
 }
 
-.button-alternate {
+.button_alternate {
     border: 1px solid #ACB5BD;
 }
 
-.button-alternate:not([disabled]):hover {
+.button_alternate:not([disabled]):hover {
     border: 1px solid #212429;
 }
