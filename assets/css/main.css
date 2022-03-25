@@ -12,6 +12,13 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    
+    --main-color: #4263EB;
+    --secondary-color: #7048E8;
+    --main-hover-color: #2342C0;
+    --secondary-hover-color:#5028C6;
+    --main-text-color:#FFFFFF;
+
     --error: var(--red);
     --success: var(--blue);
 
