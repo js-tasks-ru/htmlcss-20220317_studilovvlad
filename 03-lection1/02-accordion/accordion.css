@@ -1,1 +1,12 @@
-/* Стилизация аккордеона */
+.accordion {
+    border-radius: 8px;
+    border: 1px solid var(--grey-3)
+}
+
+.accordion[open] {
+    height: 70px;
+}
+
+.main {
+    width: 430px;
+}
