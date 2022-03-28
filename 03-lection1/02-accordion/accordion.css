@@ -1,12 +1,38 @@
-.accordion {
+
+.accordion__item[open] {
+    overflow: auto;
+    width: 730px;
+    list-style-position: inside;
+    border: 1px solid var(--grey-3)
+}
+
+.accordion__item {
+    margin-bottom: 8px;
     border-radius: 8px;
     border: 1px solid var(--grey-3)
 }
 
-.accordion[open] {
-    height: 70px;
+.accordion__item:last-child {
+    margin-bottom: 0;
 }
 
-.main {
-    width: 430px;
+.accordion__item:not([open]) {
+    height: 72px;
+    width: 730px;
+    left: 544px;
+}
+
+.accordion__summary {
+    cursor: pointer;
+    display: inline;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 539px;
+}
+
+.accordion__text {
+    padding-left: 32px;
+    padding-top: 8px;
+    margin-top: 0;
 }

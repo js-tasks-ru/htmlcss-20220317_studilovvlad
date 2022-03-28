@@ -5,14 +5,32 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
-    <body class = "main">
-        <details class = "accordion">
-            <summary class = "accordion__summary">
-                Аккордеончик 1
-            </summary>
-            <p>
-                Если вы это видите, значит вы нажали на аккордеончик
-            </p>
-        </details>
+    <body>
+        <div class = "accordion__parent">
+            <details class = "accordion accordion__item" open>
+                <summary class = "accordion accordion__summary">
+                    Аккордеончик 1
+                </summary>
+                <p class = "accordion accordion__text">
+                    Если вы это видите, значит вы нажали на аккордеончик
+                </p>
+            </details>
+            <details class = "accordion accordion__item">
+                <summary class = "accordion__summary">
+                    Аккордеончик 2
+                </summary>
+                <p class = "accordion accordion__text">
+                    Быть или не быть, вот в чём вопрос? А если требуется проверить размер аккордеона в зависимости от количества текста? Для этого, естественно требуется этот текст написать.
+                </p>
+            </details>
+            <details class = "accordion accordion__item">
+                <summary class = "accordion__summary">
+                    Аккордеончик 3
+                </summary>
+                <p class = "accordion accordion__text">
+                    А тут ничего нет
+                </p>
+            </details>
+        </div>
     </body>
 </html>
