@@ -25,9 +25,13 @@
     cursor: pointer;
     display: inline-block;
     width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
 .accordion__text {
     padding-bottom: 24px;
     margin: 0;
+    font-family: 'InterRegular';
+    font-style: normal;
 }
