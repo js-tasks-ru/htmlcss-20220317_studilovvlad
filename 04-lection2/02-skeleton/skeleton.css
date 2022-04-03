@@ -1,0 +1,55 @@
+.skeleton {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skeleton__header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.skeleton__body {
+    margin-left: 24px;
+    margin-right: 40px;
+}
+
+.skeleton__header__lines {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin-top: 32px;
+    margin-left: 16px;
+}  
+
+.skeleton__header__avatar {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background: var(--grey-2);
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.skeleton__line {
+    background: var(--grey-2);
+    height: 20px;
+}
+
+.line_1 {
+    width: 36%;
+    margin-bottom: 8px;
+}
+
+.line_2 {
+    width: 54%;
+}
+
+.line_3 {
+    margin-bottom: 8px;
+}
+
+.line_3:last-child {
+    margin-bottom: 32px;
+}
