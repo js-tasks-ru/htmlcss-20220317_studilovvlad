@@ -1,0 +1,76 @@
+.histogram {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+}
+
+.histogram__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.histogram__nav {
+    margin-top: 3px;
+}
+
+.histogram__link {
+    font-family: 'InterRegular';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.histogram__column {
+    background: var(--blue);
+    flex-grow: 1;
+    flex-basis: auto;
+    margin-right: 1px;
+}
+
+.histogram__body {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: stretch;
+}
+
+.histogram__column:first-child {
+    margin-left: 2px;
+}
+
+.histogram__column:last-child {
+    margin-right: 5px;
+}
+
+.histogram__header-text {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-family: 'InterRegular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.histogram__stat {
+    margin-top: 3px;
+    margin-bottom: 39px;
+    font-family: 'InterRegular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
