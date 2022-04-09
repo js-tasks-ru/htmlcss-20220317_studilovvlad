@@ -1,0 +1,20 @@
+.main {
+    background: var(--whblue);
+}
+
+.card {
+    height: 367px;
+    width: 350px;
+    background: var(--white);
+}
+
+.card-container {
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    padding-top: 67px;
+    padding-bottom: 204px;
+    display: flex;
+    gap: 30px;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
