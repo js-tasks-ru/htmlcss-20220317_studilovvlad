@@ -8,13 +8,16 @@
     background: var(--white);
 }
 
-.card-container {
-    padding-left: 11.5%;
-    padding-right: 11.5%;
-    padding-top: 67px;
-    padding-bottom: 204px;
+.cards {
     display: flex;
     gap: 30px;  
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.container {
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    padding-top: 67px;
+    padding-bottom: 204px;
 }

@@ -1,14 +1,16 @@
-.header {
-    height: 237px;
-}
 
 .header__text {
-    margin-left: 11%;
-    margin-top: 96px;
+    margin: 0 auto;
     font-family: 'Inter';
     font-size: 50px;
     font-weight: 500;
     line-height: 64px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.header__container {
+    padding-top: 96px;
+    padding-bottom: 77px;
+    padding-left: 160px;
 }
