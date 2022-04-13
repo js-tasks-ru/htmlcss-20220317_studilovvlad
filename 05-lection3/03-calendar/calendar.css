@@ -2,23 +2,16 @@
     display: grid;
     grid-template-columns: repeat(7, 36px);
     grid-template-rows: repeat(7, 36px);
-    position: absolute;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 63px;
+    position: relative;
 }
 
 .calendar {
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     padding: 28px 26px;
-    position: absolute;
-    height: 270px;
-    width: 246px;
+    position: relative;
+    max-height: 270px;
+    max-width: 246px;
 }
 
 .calendar__item {
@@ -45,21 +38,20 @@
 .calendar__item_day {
     font-family: 'Inter';
     font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: center;
 }
 
 .calendar__wrapper {
     padding-top: 16px;
+    padding-bottom: 100%;
+    position: relative;
 }
 
-.active {
+.calendar__item_active {
     background: var(--blue);
     color: var(--white);
 }
 
-.between {
+.calendar__item_between {
     background: var(--whblue);
 }
+
