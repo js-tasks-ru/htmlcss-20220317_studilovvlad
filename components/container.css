@@ -1,6 +1,6 @@
 .container {
-    padding-left: 11.5%;
-    padding-right: 11.5%;
-    padding-top: 67px;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 68px;
     padding-bottom: 204px;
 }
