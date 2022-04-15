@@ -1,6 +1,6 @@
 .calendar__inner {
     display: grid;
-    grid-template-columns: repeat(7, 36px);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 36px);
     position: relative;
 }
@@ -10,8 +10,8 @@
     border-radius: 8px;
     padding: 28px 26px;
     position: relative;
-    max-height: 270px;
-    max-width: 246px;
+    
+    width: 246px;
 }
 
 .calendar__item {
@@ -42,7 +42,7 @@
 
 .calendar__wrapper {
     padding-top: 16px;
-    padding-bottom: 100%;
+    padding-bottom: 0%;
     position: relative;
 }
 
