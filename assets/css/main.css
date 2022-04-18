@@ -14,7 +14,6 @@
     --whiteblue: #F9FAFC;
     --whblue: #A0B1F5;
 
-
     --main-color: #4263EB;
     --secondary-color: #7048E8;
     --main-hover-color: #2342C0;
@@ -30,4 +29,12 @@
 
 * {
     font-family: 'InterRegular';
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
 }

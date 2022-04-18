@@ -1,0 +1,25 @@
+.bgimage {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    padding-top: 50%;
+    background-image: url(./public/forest_400.jpg);
+}
+
+@media screen and (min-width: 768px) {
+    .bgimage {
+        background-image: url(./public/forest_768.jpg);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bgimage {
+        background-image: url(./public/forest_1024.jpg);
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .bgimage {
+        background-image: url(./public/forest_2560.jpg);
+    }
+}

@@ -27,6 +27,8 @@
     width: 100%;
     font-family: 'InterRegular';
     font-style: normal;
+    display: flex;
+    justify-content: space-between;
 }
 
 .accordion__text {
@@ -34,4 +36,8 @@
     margin: 0;
     font-family: 'InterRegular';
     font-style: normal;
+}
+
+.accordion__item[open] .accordion__arrow {
+    transform: rotate(180deg);
 }
