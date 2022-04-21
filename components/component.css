@@ -1,0 +1,19 @@
+.component-container {
+    background: var(--white);
+    text-align: left;
+}
+
+@media screen and  (max-width: 500px) {
+    .component-container {
+        margin-left: 0px;
+        text-align: left;
+    }
+    .component__name {
+        padding: 0px !important;
+    }    
+}
+
+.component__name {
+    padding-top: 32px;
+    padding-left: 48px;
+}
