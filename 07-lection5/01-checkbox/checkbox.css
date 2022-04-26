@@ -83,3 +83,7 @@
 .checkbox__title {
     color: var(--grey-2);
 }
+
+.checkbox_disabled {
+    cursor: not-allowed;
+}
