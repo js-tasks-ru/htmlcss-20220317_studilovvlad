@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.input {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 11px;
+}
+
+.input__control {
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 56px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.input__input {
+    position: absolute;
+    padding: 16px 39px 12px 24px;
+    top: 1px;
+    left: 1px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 285px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-4);
+}
+
+.input__input:focus {
+    outline: 0;
+}
+
+.input__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: var(--grey-3);
+}
+
+.input__input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-2);
+}
+
+.input__input:focus ~ .input__state
+.input__control {
+    border-color: var(--main-color);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+}
+
+.input__state {
+    display: flex;
+    align-self: center;
+    gap: 12px;
+}
+
+.input__icon_succes {
+    display: none;
+    position: absolute;
+    margin-right: 16px;
+    z-index: 999;
+}
+
+.input__icon_error {
+    display: none;
+    position: absolute;
+    margin-right: 16px;
+    z-index: 999;
+}
+
+.input_error > .input__state > .input__control {
+    border: 1px solid var(--red);
+}
+
+.input_error > .input__state > .input__control > .input__icon_error {
+    display: inline;
+}
+
+.input_success > .input__state > .input__control > .input__icon_succes {
+    display: inline;
+}
+
+.input_success > .input__input::placeholder {
+    color: var(--grey-4);
+}
+
+.input_error > .input__input::placeholder {
+    color: var(--grey-4);
+}
+
+.input_error > .input__input{
+    cursor: not-allowed;
+}
+
+.input_error > .input__input:focus ~ .input__state
+.input__control {
+    border: 1px solid var(--red)
+}
+
+.input_error {
+    cursor: not-allowed;
+}
