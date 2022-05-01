@@ -57,14 +57,14 @@
     text-decoration: underline;
 }
 
-.container {
+.body {
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
 }
 
-.checkbox__header {
+.info {
     font-family: 'Inter';
     font-size: 12px;
     font-weight: 500;
