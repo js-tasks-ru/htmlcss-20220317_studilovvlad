@@ -1,0 +1,114 @@
+.burger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-100vw);
+    transition: transform 200ms linear;
+    background: var(--whiteblue);
+}
+
+.burger-menu[data-open] {
+    transform: translateX(0);
+}
+
+.burger-menu__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--whiteblue);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--whiteblue);
+}
+
+.header__logo {
+    margin: 17px 0px;
+}
+
+.burger-menu__header-logo {
+    margin: 17px 0px;
+}
+
+.header__button {
+    background: none; 
+    border: none; 
+    box-shadow: none;
+    height: 32px;
+    width: 32px;
+    margin-left: 12px;
+    padding: 0;
+}
+
+.burger-menu__close-button {
+    background: var(--grey-2); 
+    border: none; 
+    box-shadow: none;
+    height: 32px;
+    width: 32px;
+    margin-left: 12px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.header__button-svg {
+    margin: 4px 4px;
+}
+
+.burger-menu__close-icon {
+    margin: 4px 4px;
+}
+
+.burger-menu__menu-header {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+    margin-top: 24px;
+    color: var(--grey-3);
+}
+
+.burger-menu__menu-element {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+    text-decoration: none;
+    color: var(--black);
+    padding: 2px 0px;
+}
+
+.burger-menu__menu-element:hover {
+    color: var(--active);
+}
+
+.burger-menu__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 16px;
+}
+
+.burger-menu__menu-element_active {
+    color: var(--Notificaiton);
+}
+
+.burger-menu__title {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 0px 24px 16px;
+}
+
