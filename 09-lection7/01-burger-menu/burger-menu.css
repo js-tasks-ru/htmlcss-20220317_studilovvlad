@@ -47,7 +47,7 @@
     padding: 0;
 }
 
-.burger-menu__close {
+.burger-menu__close-button {
     background: var(--grey-2); 
     border: none; 
     box-shadow: none;
@@ -62,7 +62,7 @@
     margin: 4px 4px;
 }
 
-.burger-menu-close__button {
+.burger-menu__close-icon {
     margin: 4px 4px;
 }
 
